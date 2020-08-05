@@ -1,0 +1,273 @@
+{
+	"type": "Feature",
+	"properties": {
+		"mag": 1.1000000000000001,
+		"place": "117km NW of Talkeetna, Alaska",
+		"time": 1388620046501,
+		"updated": 1558392330681,
+		"tz": -540,
+		"url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak01421ig3u",
+		"felt": null,
+		"cdi": null,
+		"mmi": null,
+		"alert": null,
+		"status": "reviewed",
+		"tsunami": 0,
+		"sig": 19,
+		"net": "ak",
+		"code": "01421ig3u",
+		"ids": ",ak10992887,ak01421ig3u,",
+		"sources": ",ak,ak,",
+		"types": ",associate,geoserve,nearby-cities,origin,phase-data,tectonic-summary,",
+		"nst": null,
+		"dmin": null,
+		"rms": 0.56999999999999995,
+		"gap": null,
+		"magType": "ml",
+		"type": "earthquake",
+		"title": "M 1.1 - 117km NW of Talkeetna, Alaska",
+		"products": {
+			"associate": [{
+				"indexid": "182426252",
+				"indexTime": 1558392368765,
+				"id": "urn:usgs-product:us:associate:ak10992887_ak01421ig3u:1558392330681",
+				"type": "associate",
+				"code": "ak10992887_ak01421ig3u",
+				"source": "us",
+				"updateTime": 1558392330681,
+				"status": "UPDATE",
+				"properties": {
+					"eventsource": "ak",
+					"eventsourcecode": "10992887",
+					"othereventsource": "ak",
+					"othereventsourcecode": "01421ig3u",
+					"pdl-client-version": "Version 1.14.1 2018-04-26"
+				},
+				"preferredWeight": 1,
+				"contents": []
+			}],
+			"geoserve": [{
+				"indexid": "12157581",
+				"indexTime": 1416646425609,
+				"id": "urn:usgs-product:us:geoserve:ak10992887:1389117322816",
+				"type": "geoserve",
+				"code": "ak10992887",
+				"source": "us",
+				"updateTime": 1389117322816,
+				"status": "UPDATE",
+				"properties": {
+					"country": "United States",
+					"eventsource": "ak",
+					"eventsourcecode": "10992887",
+					"location": "117km NW of Talkeetna, Alaska",
+					"state": "Alaska",
+					"tsunamiFlag": "false",
+					"utcOffset": "-540"
+				},
+				"preferredWeight": 1,
+				"contents": {
+					"geoserve.json": {
+						"contentType": "application/json",
+						"lastModified": 1389117330000,
+						"length": 10380,
+						"url": "https://earthquake.usgs.gov/archive/product/geoserve/ak10992887/us/1389117322816/geoserve.json"
+					}
+				}
+			}],
+			"nearby-cities": [{
+				"indexid": "12157571",
+				"indexTime": 1416646425585,
+				"id": "urn:usgs-product:us:nearby-cities:ak10992887:1389117322816",
+				"type": "nearby-cities",
+				"code": "ak10992887",
+				"source": "us",
+				"updateTime": 1389117322816,
+				"status": "UPDATE",
+				"properties": {
+					"eventsource": "ak",
+					"eventsourcecode": "10992887"
+				},
+				"preferredWeight": 1,
+				"contents": {
+					"nearby-cities.inc.html": {
+						"contentType": "text/html",
+						"lastModified": 1389117330000,
+						"length": 259,
+						"url": "https://earthquake.usgs.gov/archive/product/nearby-cities/ak10992887/us/1389117322816/nearby-cities.inc.html"
+					},
+					"nearby-cities.json": {
+						"contentType": "application/json",
+						"lastModified": 1389117330000,
+						"length": 621,
+						"url": "https://earthquake.usgs.gov/archive/product/nearby-cities/ak10992887/us/1389117322816/nearby-cities.json"
+					}
+				}
+			}],
+			"origin": [{
+				"indexid": "183171202",
+				"indexTime": 1558472951287,
+				"id": "urn:usgs-product:ak:origin:AK01421ig3u:1557798554941",
+				"type": "origin",
+				"code": "AK01421ig3u",
+				"source": "ak",
+				"updateTime": 1557798554941,
+				"status": "UPDATE",
+				"properties": {
+					"depth": "14.1",
+					"evaluation-status": "preliminary",
+					"event-type": "earthquake",
+					"eventParametersPublicID": "quakeml:earthquake.alaska.edu/event/01421ig3u",
+					"eventsource": "ak",
+					"eventsourcecode": "01421ig3u",
+					"eventtime": "2014-01-01T23:47:26.501Z",
+					"latitude": "63.102",
+					"longitude": "-151.6459",
+					"magnitude": "1.1",
+					"magnitude-type": "ml",
+					"num-phases-used": "12",
+					"quakeml-magnitude-publicid": "quakeml:earthquake.alaska.edu/magnitude/01421ig3u/ml",
+					"quakeml-origin-publicid": "quakeml:earthquake.alaska.edu/origin/01421ig3u",
+					"quakeml-publicid": "quakeml:earthquake.alaska.edu/event/01421ig3u",
+					"review-status": "reviewed",
+					"standard-error": "0.57",
+					"version": "2",
+					"vertical-error": "0.2"
+				},
+				"preferredWeight": 156,
+				"contents": {
+					"contents.xml": {
+						"contentType": "application/xml",
+						"lastModified": 1558472950000,
+						"length": 195,
+						"url": "https://earthquake.usgs.gov/archive/product/origin/AK01421ig3u/ak/1557798554941/contents.xml"
+					},
+					"quakeml.xml": {
+						"contentType": "application/xml",
+						"lastModified": 1557798554000,
+						"length": 1935,
+						"url": "https://earthquake.usgs.gov/archive/product/origin/AK01421ig3u/ak/1557798554941/quakeml.xml"
+					}
+				}
+			}, {
+				"indexid": "12157531",
+				"indexTime": 1416646425459,
+				"id": "urn:usgs-product:ak:origin:ak10992887:1389117322816",
+				"type": "origin",
+				"code": "ak10992887",
+				"source": "ak",
+				"updateTime": 1389117322816,
+				"status": "UPDATE",
+				"properties": {
+					"depth": "14.1",
+					"evaluation-status": "preliminary",
+					"event-type": "earthquake",
+					"eventParametersPublicID": "quakeml:ak.anss.org/eventParameters/10992887/1389117322816",
+					"eventsource": "ak",
+					"eventsourcecode": "10992887",
+					"eventtime": "2014-01-01T23:47:26.000Z",
+					"horizontal-error": "0.5",
+					"latitude": "63.102",
+					"longitude": "-151.6458",
+					"magnitude": "1.1",
+					"magnitude-type": "ml",
+					"num-phases-used": "12",
+					"quakeml-publicid": "quakeml:ak.anss.org/event/10992887",
+					"review-status": "reviewed",
+					"standard-error": "0.57",
+					"version": "2",
+					"vertical-error": "0.2"
+				},
+				"preferredWeight": 156,
+				"contents": {
+					"contents.xml": {
+						"contentType": "application/xml",
+						"lastModified": 1389117322000,
+						"length": 195,
+						"url": "https://earthquake.usgs.gov/archive/product/origin/ak10992887/ak/1389117322816/contents.xml"
+					},
+					"quakeml.xml": {
+						"contentType": "application/xml",
+						"lastModified": 1389117322000,
+						"length": 1640,
+						"url": "https://earthquake.usgs.gov/archive/product/origin/ak10992887/ak/1389117322816/quakeml.xml"
+					}
+				}
+			}],
+			"phase-data": [{
+				"indexid": "183171212",
+				"indexTime": 1558472952104,
+				"id": "urn:usgs-product:ak:phase-data:AK01421ig3u:1557798554941",
+				"type": "phase-data",
+				"code": "AK01421ig3u",
+				"source": "ak",
+				"updateTime": 1557798554941,
+				"status": "UPDATE",
+				"properties": {
+					"depth": "14.1",
+					"evaluation-status": "preliminary",
+					"event-type": "earthquake",
+					"eventParametersPublicID": "quakeml:earthquake.alaska.edu/event/01421ig3u",
+					"eventsource": "ak",
+					"eventsourcecode": "01421ig3u",
+					"eventtime": "2014-01-01T23:47:26.501Z",
+					"latitude": "63.102",
+					"longitude": "-151.6459",
+					"magnitude": "1.1",
+					"magnitude-type": "ml",
+					"num-phases-used": "12",
+					"quakeml-magnitude-publicid": "quakeml:earthquake.alaska.edu/magnitude/01421ig3u/ml",
+					"quakeml-origin-publicid": "quakeml:earthquake.alaska.edu/origin/01421ig3u",
+					"quakeml-publicid": "quakeml:earthquake.alaska.edu/event/01421ig3u",
+					"review-status": "reviewed",
+					"standard-error": "0.57",
+					"version": "2",
+					"vertical-error": "0.2"
+				},
+				"preferredWeight": 156,
+				"contents": {
+					"contents.xml": {
+						"contentType": "application/xml",
+						"lastModified": 1558472950000,
+						"length": 195,
+						"url": "https://earthquake.usgs.gov/archive/product/phase-data/AK01421ig3u/ak/1557798554941/contents.xml"
+					},
+					"quakeml.xml": {
+						"contentType": "application/xml",
+						"lastModified": 1557798554000,
+						"length": 15145,
+						"url": "https://earthquake.usgs.gov/archive/product/phase-data/AK01421ig3u/ak/1557798554941/quakeml.xml"
+					}
+				}
+			}],
+			"tectonic-summary": [{
+				"indexid": "12157561",
+				"indexTime": 1416646425559,
+				"id": "urn:usgs-product:us:tectonic-summary:ak10992887:1389117322816",
+				"type": "tectonic-summary",
+				"code": "ak10992887",
+				"source": "us",
+				"updateTime": 1389117322816,
+				"status": "UPDATE",
+				"properties": {
+					"eventsource": "ak",
+					"eventsourcecode": "10992887",
+					"review-status": "Automatic"
+				},
+				"preferredWeight": 1,
+				"contents": {
+					"tectonic-summary.inc.html": {
+						"contentType": "text/html",
+						"lastModified": 1389117330000,
+						"length": 8586,
+						"url": "https://earthquake.usgs.gov/archive/product/tectonic-summary/ak10992887/us/1389117322816/tectonic-summary.inc.html"
+					}
+				}
+			}]
+		}
+	},
+	"geometry": {
+		"type": "Point",
+		"coordinates": [-151.64590000000001, 63.101999999999997, 14.1]
+	},
+	"id": "ak01421ig3u"
+}
